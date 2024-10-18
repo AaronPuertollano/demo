@@ -1,0 +1,24 @@
+:root {
+    --principal-one: #FFFCEF;
+    --secon-one: #D2EBCD;
+    --third-one: #FF7F5B;
+    --four-one: #393939;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    background-color: #393939; /* Agrega un fondo para evitar superposición de contenido */
+    color: #FFFCEF; /* Opcional, para separar visualmente el header */
+}
+  
+  body {
+    padding-top: 60px; /* Asegura que el contenido no quede oculto debajo del header fijo */
+}
+
+footer{
+    background-color: #393939;
+    color: #FFFCEF;
+}
