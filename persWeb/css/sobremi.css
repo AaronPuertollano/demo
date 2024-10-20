@@ -19,6 +19,7 @@ body {
 .botonlink{
   color: var(--secon-one);
   background-color: var(--third-one);
+  border-color: var(--third-one);
 }
 
 .mainCenter {
