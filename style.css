@@ -3,22 +3,52 @@
     --secon-one: #D2EBCD;
     --third-one: #FF7F5B;
     --four-one: #393939;
-}
-
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
-    background-color: #393939; /* Agrega un fondo para evitar superposición de contenido */
-    color: #FFFCEF; /* Opcional, para separar visualmente el header */
-}
+  }
   
   body {
-    padding-top: 60px; /* Asegura que el contenido no quede oculto debajo del header fijo */
-}
-
-footer{
-    background-color: #393939;
-    color: #FFFCEF;
-}
+    margin: 0 auto;
+    max-height: 100vh;
+    color: var(--secon-one); 
+    background-color: var(--four-one);
+  }
+  
+  .helink{
+    color: var(--third-one);
+  }
+  
+  .botonlink{
+    color: var(--secon-one);
+    background-color: var(--third-one);
+    border-color: var(--third-one);
+  }
+  
+  .mainCenter {
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 8%;
+    max-width: 60%;
+  }
+  
+  /* zona responsive */
+  
+  @media (max-width: 768px) {
+    .mainCenter {
+      max-width: 80%;
+      padding-top: 20%;
+    }
+  
+    header .inner {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .mainCenter {
+      max-width: 90%;
+      padding-top: 30%;
+    }
+  }
+  
+  
+  

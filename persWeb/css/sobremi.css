@@ -29,6 +29,19 @@ body {
   max-width: 60%;
 }
 
+h2{
+  padding: 15px;
+}
+
+.blog{
+  margin: 0 auto;
+  width: 75%;
+}
+
+.artsobre{
+  padding-top: 25px;
+}
+
 /* zona responsive */
 
 @media (max-width: 768px) {
