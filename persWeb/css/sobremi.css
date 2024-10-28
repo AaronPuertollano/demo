@@ -12,7 +12,7 @@ body {
   background-color: var(--four-one);
 }
 
-.helink{
+.helink, a{
   color: var(--third-one);
 }
 
@@ -40,6 +40,7 @@ h2{
 .blog{
   margin: 0 auto;
   width: 75%;
+  line-height: 1.5;
 }
 
 .artsobre{
