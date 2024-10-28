@@ -1,0 +1,19 @@
+body{
+    font-family: Arial;
+}
+p, ul, blockquote{
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+    font-size: large;
+    max-width: 75%;
+    line-height: 1.4;
+    text-align: justify;
+}
+h2,h3{
+    padding-left: 5%;
+}
+header{
+    text-align: center;
+    padding-bottom: 10px;
+}

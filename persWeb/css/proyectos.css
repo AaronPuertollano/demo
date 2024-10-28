@@ -1,3 +1,43 @@
-body{
-    background-color: aquamarine;
+:root {
+    --principal-one: #FFFCEF;
+    --secon-one: #D2EBCD;
+    --third-one: #FF7F5B;
+    --four-one: #393939;
+}
+
+.helink{
+    color: var(--third-one);
+}
+
+.helink:hover{
+    color: var(--principal-one);
+}
+
+body {
+    background-color: var(--four-one);
+    color: var(--principal-one);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    color: var(--secon-one);
+    margin-bottom: 20px;
+}
+
+.project-link {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.project-link a {
+    color: var(--third-one);
+    text-decoration: none;
+}
+
+.project-link a:hover {
+    color: var(--principal-one);
 }

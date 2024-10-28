@@ -15,6 +15,10 @@
   .helink{
     color: var(--third-one);
   }
+
+  .helink:hover{
+    color: var(--principal-one);
+}
   
   .botonlink{
     color: var(--secon-one);
@@ -28,6 +32,45 @@
     padding-bottom: 8%;
     max-width: 60%;
   }
+
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal-content {
+    background-color: var(--secon-one);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid var(--third-one);
+    width: 80%;
+    color: var(--four-one);
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
   
   /* zona responsive */
   

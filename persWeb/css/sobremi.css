@@ -16,6 +16,10 @@ body {
   color: var(--third-one);
 }
 
+.helink:hover{
+  color: var(--principal-one);
+}
+
 .botonlink{
   color: var(--secon-one);
   background-color: var(--third-one);
@@ -40,6 +44,18 @@ h2{
 
 .artsobre{
   padding-top: 25px;
+}
+
+.featurette-image {
+  width: 100%;           
+  max-width: 300px;      
+  height: 300px;         
+  object-fit: cover;
+}
+
+.rounded-image {
+  border-radius: 50%;    
+  overflow: hidden;      
 }
 
 /* zona responsive */
