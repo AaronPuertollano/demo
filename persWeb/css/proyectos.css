@@ -41,3 +41,24 @@ body {
 .project-link a:hover {
     color: var(--principal-one);
 }
+
+/* zona responsive */
+
+@media (max-width: 768px) {
+    .mainCenter {
+      max-width: 80%;
+      padding-top: 20%;
+    }
+  
+    header .inner {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .mainCenter {
+      max-width: 90%;
+      padding-top: 30%;
+    }
+  }
