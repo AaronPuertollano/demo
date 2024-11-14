@@ -1,12 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .galery{
-    background-color: aqua;
-    width: 85%;
+    background-color: rgb(202, 221, 221);
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    flex-direction: row;
 }
 
 img{
-    width: 250px;
-    min-width: 120px;
-    border-radius: 5%;
+    width: 360px;
+    height: 360px;
+    border-radius: 12px;
+    margin: 3px;
+    flex-direction: column;
 }
+
+@media (max-width: 600px) {
+    img{
+        width: 120px;
+        height: 120px;
+    }
+  
+}
+
+@media (max-width: 860px) {
+    img{
+        width: 280px;
+        height: 280px;
+    }
+  
+}
+
