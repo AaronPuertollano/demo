@@ -42,6 +42,11 @@ body {
     color: var(--principal-one);
 }
 
+.links{
+  width: 35%;
+  flex-direction: row;
+}
+
 /* zona responsive */
 
 @media (max-width: 768px) {
