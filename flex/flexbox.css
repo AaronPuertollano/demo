@@ -9,6 +9,8 @@ body {
 }
 
 .galery {
+    width: 90%;
+    background-color: aliceblue;
     display: flex;
     flex-wrap: wrap;
     gap: 8px; 
