@@ -1,11 +1,24 @@
+
 const fetchCat = async () => {
 
     const res = await fetch("https://api.thecatapi.com/v1/images/search");
-    const body = await Response.json();
-    return body[0];
+    const body = await res.json(); 
+    return body[0]?.url; 
 
 };
 
-alert (JSON.stringify(await fetchCat()));
-/*https://api.thecatapi.com/v1/images/search*/
+const loadGallery = async () => {
+    const urls = await Promise.all([fetchCat(), fetchCat(), fetchCat(), fetchCat(), fetchCat(), fetchCat(), fetchCat(), fetchCat(), fetchCat()]);
+    document.querySelector(".galery").innerHTML = urls
+        .filter((url) => url) 
+        .map((url) => `<img src="${url}" alt="Cat Image" />`)
+        .join("\n");
+};
+
+loadGallery();
+
+
+
+
+
 
