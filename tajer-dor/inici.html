@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="inici.css">
     <link rel="icon" href="./img/Tajer-ico.jpeg"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Inici</title>
 </head>
@@ -34,51 +35,85 @@
 
     <div class="container">
 
-        <div class="espai">
-
-        </div>
-
-
-        <div class="content">
-            <hr class="featurette-divider">
-
-                    <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    </div>
-                    <div class="col-md-5">
-                        <img class="image" src="./img/mask.jpg" alt="">
-                    </div>
-                    </div>
-            
-                    <hr class="featurette-divider">
-            
-                    <div class="row featurette">
-                    <div class="col-md-7 order-md-2">
-                        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    </div>
-                    <div class="col-md-5 order-md-1">
-                        <img class="image" src="./img/gente-cocinadno.jpg" alt="">
-                    </div>
-                    </div>
-            
-            <hr class="featurette-divider">
-            
-            <div class="row featurette">
-                <div class="col-md-7">
-                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="image" src="./img/consell.jpg" alt="">
+        <div class="hero-section" style="background-image: url('./img/venecia.jpg');">
+            <div class="hero-overlay">
+                <div class="container text-center text-white">
+                    <h1 class="display-4">Bienvenido a Tajer d'Oro</h1>
+                    <p class="lead">Un pedacito de Venecia en Consell, Mallorca.</p>
                 </div>
             </div>
-            
+        </div>
+        
+        <div class="content">
             <hr class="featurette-divider">
-        </div>  
+        
+            <div class="row featurette">
+                <div class="col-md-6 padd">
+                    <h2 class="featurette-heading">Primer Encanto. <span class="text-muted">Te sorprenderá.</span></h2>
+                    <p class="lead">Descubre sabores auténticos con nuestra carta, inspirada en las tradiciones culinarias italianas.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="image" src="./img/gente-cocinadno.jpg" alt="Máscara veneciana">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+        
+            <div class="row featurette text-content">
+                <div class="col-md-6 padd">
+                    <h2 class="featurette-heading">La Experiencia. <span class="text-muted">Tu momento especial.</span></h2>
+                    <p class="lead">En un ambiente único inspirado en los canales de Venecia, te transportamos al corazón de Italia.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="image" src="./img/consell.jpg" alt="Imagen de Consell">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+        
+            <div class="row featurette">
+                <div class="col-md-8 mx-auto text-center"> <!-- Cambié el tamaño de la columna y añadí mx-auto -->
+                    <h2 class="featurette-heading">Opiniones de Nuestros Clientes. <span class="text-muted">Lo que dicen sobre nosotros.</span></h2>
+                    <p class="lead">“La comida es exquisita, el ambiente es único, y el servicio es excepcional. ¡Sin duda, el mejor restaurante italiano en la ciudad!” – Ana M.</p>
+                    <p class="lead">“Un viaje a Italia sin salir de la ciudad. Los sabores son auténticos, y la experiencia es insuperable.” – Pedro G.</p>
+                    <p class="lead">“Cada plato es una obra de arte, y el personal siempre te hace sentir como en casa. ¡Muy recomendable!” – Laura R.</p>
+                </div>
+            </div>
+        
+        </div>
+        
     </div>
+
+    <footer class=" py-4 mt-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-uppercase">Tajo d'Oro</h5>
+                    <p>Disfruta de lo mejor de la gastronomía italiana en un ambiente único inspirado en Venecia.</p>
+                </div>
+    
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-uppercase">Síguenos</h5>
+                    <ul class="list-unstyled d-flex">
+                        <li><a href="https://www.facebook.com/p/Tajer-Doro-100054346758631/?locale=es_ES" class="mx-3"><i class="fab fa-facebook fa-2x"></i></a></li>
+                        <li><a href="https://www.instagram.com/tajer_doro/?locale=es_ES&hl=en" class="mx-3"><i class="fab fa-instagram fa-2x"></i></a></li>
+                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="mx-3"><i class="fab fa-twitter fa-2x"></i></a></li>
+                        <li><a href="https://www.google.com/maps/place/Tajer+D'oro/@39.6681733,2.8092874,1177m/data=!3m2!1e3!4b1!4m6!3m5!1s0x1297c1ea3162bd31:0x7b97f5e97bba223c!8m2!3d39.6681692!4d2.8118623!16s%2Fg%2F11lr9ycjt9?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" class="mx-3"><i class="fab fa-google fa-2x"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+    
+            <hr class="bg-white">
+            <div class="row">
+                <div class="col text-center">
+                    <p>&copy; 2024 Aaron Puertollano. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
