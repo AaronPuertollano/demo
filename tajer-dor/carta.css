@@ -1,0 +1,59 @@
+.imglogo{
+    width: 200px;
+}
+
+img{
+    width: 200px;
+    max-width: 200px;
+    border-radius: 5%;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(173, 149, 41);
+}
+
+.content{
+    background-color: aliceblue;
+}
+
+.text-color{
+    color: rgb(173, 149, 41);
+}
+
+/* Título principal */
+.titulo-carta {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.categoria-titulo {
+    font-size: 1.75rem;
+    color: #D4AF37;
+    border-bottom: 2px solid #D4AF37;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.precio {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: none;
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1;
+}
