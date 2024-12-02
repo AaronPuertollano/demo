@@ -13,7 +13,14 @@ const loadGallery = async () => {
         .join("\n");
 };
 
-loadGallery();
+const container = document.querySelector(".container");
+container.innerHTML = "Loading...";
+
+for (let i = 0; i < 1; i++){
+    loadGallery();
+}
+
+
 
 
 
