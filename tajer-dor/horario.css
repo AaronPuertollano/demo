@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./img/Barrios-de-Venecia.jpg) center/cover no-repeat fixed;
+}
+
+.text-color{
+    color: rgb(173, 149, 41);
+}
+
+.a{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+header {
+    background-color: #fff;
+}
+
+.contenido{
+    background-color: #fff;
+}
+
+footer {
+    background-color: #fff;
+    text-decoration: none;
+}
+
+footer .fab {
+    transition: color 0.3s;
+}
+
+footer .list-unstyled {
+    padding-left: 0;
+}
+
+footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+footer .text-uppercase {
+    font-weight: bold;
+}
+
+footer .py-4 {
+    padding: 3rem 0;
+}
+
+.padd{
+    margin-left: 25px;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
