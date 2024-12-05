@@ -39,6 +39,11 @@ footer {
     text-decoration: none;
 }
 
+.a{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
 footer .fab {
     transition: color 0.3s;
 }
