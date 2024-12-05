@@ -12,14 +12,6 @@ header {
     background-color: aliceblue;
 }
 
-.text-content{
-    text-align: center;
-}
-
-.text-color {
-    color: rgb(173, 149, 41);
-}
-
 .image {
     max-width: 80%;
     border-radius: 5%;
@@ -42,24 +34,13 @@ header {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 
-
-
 footer {
     background-color: #fff;
     text-decoration: none;
 }
 
-.a{
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-}
-
 footer .fab {
     transition: color 0.3s;
-}
-
-footer .list-unstyled {
-    padding-left: 0;
 }
 
 footer .list-unstyled li {
@@ -70,32 +51,33 @@ footer .text-uppercase {
     font-weight: bold;
 }
 
-footer .py-4 {
-    padding: 3rem 0;
-}
-
-.padd{
-    margin-left: 25px;
-}
-
 footer .container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Responsive Styles */
+.content {
+    padding: 20px;
+}
+
+.featurette {
+    margin-bottom: 40px; 
+}
+
 @media (max-width: 768px) {
-    .hero-section {
-        height: 60vh;
-    }
-
     .featurette-heading {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+        margin-bottom: 15px;
     }
-
+    
     .lead {
         font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
     }
 
-    
+    img.img-fluid {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
