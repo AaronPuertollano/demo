@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+
+        body{
+            background-color: black;
+            color: aliceblue;
+        }
+
+        @keyframes spriteS {
+            0% {background-position: 0% 0%;}
+            100% {background-position: 100% 0%;}
+        }
+
+        @keyframes spriteN {
+            0% {background-position: 0% 35%;}
+            100% {background-position: 100% 35%;}
+        }
+
+        @keyframes spriteE {
+            0% {background-position: 0% 70%;}
+            100% {background-position: 100% 70%;}
+        }
+
+        @keyframes spriteO {
+            0% {background-position: 0% 100%;}
+            100% {background-position: 100% 100%;}
+        }
+
+        @keyframes spriteQ {
+            0% {background-position: 0% 0%;}
+            100% {background-position: 0% 0%;}
+        }
+
+        div.spriteS{
+            background-image: url(guysprite.png);
+            width: 140px;
+            height: 215px;
+            animation: spriteS 1s steps(3) infinite;
+        }
+
+        div.spriteN{
+            background-image: url(guysprite.png);
+            width: 140px;
+            height: 215px;
+            animation: spriteN 1s steps(3) infinite;
+        }
+
+        div.spriteE{
+            background-image: url(guysprite.png);
+            width: 140px;
+            height: 195px;
+            animation: spriteE 1s steps(3) infinite;
+        }
+
+        div.spriteO{
+            background-image: url(guysprite.png);
+            width: 140px;
+            height: 195px;
+            animation: spriteO 1s steps(3) infinite;
+        }
+
+        div.spriteQ{
+            background-image: url(guysprite.png);
+            width: 140px;
+            height: 195px;
+            animation: spriteQ 1s steps(3) infinite;
+        }
+
+        .contenido{
+            text-align: center;
+            margin: auto;
+            width: 80%;
+        }
+
+        div{
+            margin: auto;
+        }
+
+    </style>
+
+    <img src="guysprite.png" width="250" height="250" alt="">
+
+    <div class="contenido">
+
+        <h1>ARRIBA</h1>
+
+        <div class="spriteS"></div>
+    
+        <h1>ABAJO</h1>
+    
+        <div class="spriteN"></div>
+    
+        <h1>IZQUIERDA</h1>
+    
+        <div class="spriteE"></div>
+    
+        <h1>DERECHA</h1>
+    
+        <div class="spriteO"></div>
+
+        <h1>QUIETO (60 fps)</h1>
+    
+        <div class="spriteQ"></div>
+
+
+    </div>
+
+
+
+    
+</body>
+</html>
