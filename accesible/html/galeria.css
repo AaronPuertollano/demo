@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Prompt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
 :root {
-    --blue-color: #96B6C5;
-    --black_blue-color: #485a63;
-    --white-color: #EEE0C9;
-    --strong-white-color: #eed8b2;
+    --blue-color: #ffffff;
+    --black_blue-color: #080808;
+    --white-color: #e0eec8;
+    --strong-white-color: #5d8841;
+    --back-color: #dfa861;
 }
-
 
 *{
     margin: 0;
@@ -14,7 +14,7 @@
 }
 
 body{
-    background-color: #96B6C5;
+    background-color: var(--back-color);
     font-family: 'Cabin', sans-serif;
 }
 
@@ -101,6 +101,7 @@ header{
 .text{
     padding-left: 10px;
     padding-bottom: 10px;
+    padding-top: 25px;
 }
 
 /* text */
@@ -115,7 +116,7 @@ header{
 }
 
 .day{
-    color: #689bb4;
+    color: var(--black_blue-color);
     margin: 10px;
     text-align: right; 
     font-size: x-large;
@@ -147,14 +148,13 @@ header{
 img{
     width: 25%;
     margin: 15px;
-    border: 3px solid var(--blue-color);
+    border: 3px solid var(--strong-white-color);
     border-radius: 5%;
     min-width: 50px;
-    opacity: 0.7;
 }
 
 .titolgaleria{
-    color: var(--blue-color);
+    color: var(--black_blue-color);
     padding: 8px;
     font-size: x-large;
 }
@@ -165,10 +165,7 @@ img{
     float: left;
 }
 
-img:hover{
-transform: scale(1.1);  
-opacity: 1.0;
-}
+
 
 footer a{
     float: right;
@@ -194,7 +191,7 @@ footer p{
 
 .divider {
     background: rgb(238,224,201);
-    background: linear-gradient(90deg, rgba(238,224,201,1) 46%, rgba(150,182,197,1) 100%);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 46%, rgb(0, 0, 0) 100%);
     margin: 25px auto;
     height: 2px;
 }
