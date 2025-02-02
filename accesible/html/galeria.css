@@ -134,7 +134,9 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 figure {
@@ -154,7 +156,6 @@ img {
   border: 3px solid var(--strong-white-color);
   border-radius: 5%;
   min-width: 50px;
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .titolgaleria {
