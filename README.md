@@ -42,13 +42,15 @@ Se realizaron las siguientes mejoras para cumplir con los estándares de accesib
 
 -Cambio de colores para mejorar del contraste
 
--Cambio de etiquetas HTML
+-Cambio de etiquetas HTML para mejorar la lectura de narrador
 
--Cambio de lenguaje en HTML
+-Cambio de lenguaje en HTML de eng a es
 
 -Introducción de texto explicativo para imagenes tato visual o para lector
 
 -Aligerar la carga aliminando elementos externos como google fonts
+
+-Revisando la pagina con el narrador, el orden de lectura es correcto 
 
 
 **Enlace a la página modificada:**  
