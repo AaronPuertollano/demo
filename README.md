@@ -16,7 +16,7 @@
 | 1.3.5 Identificar el propósito de la entrada|            |               |      X        |
 | 1.4.1 Uso del color                         |      X     |               |               |
 | 1.4.3 Contraste                             |            |      X        |               |
-| 1.4.4 Cambiar el tamaño del texto           |            |      X        |               |
+| 1.4.4 Cambiar el tamaño del texto           |      X     |               |               |
 | 1.4.5 Imágenes de texto                     |            |      X        |               |
 | 1.4.11 Contraste no textual                 |      X     |               |               |
 | 1.4.12 Espaciado de texto                   |      X     |               |               |
@@ -39,6 +39,20 @@
 ## Cambios Implementados
 
 Se realizaron las siguientes mejoras para cumplir con los estándares de accesibilidad:
+
+-Cambio de colores para mejorar del contraste
+
+-Cambio de etiquetas HTML
+
+-Cambio de lenguaje en HTML
+
+-Introducción de texto explicativo para imagenes tato visual o para lector
+
+-
+
+
+**Enlace a la página modificada:**  
+[Análisis en LightHouse](https://pagespeed.web.dev/analysis/https-demo5262-netlify-app-accesible-html-galeria/lc5kfkb48q?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=es&utm_source=lh-chrome-ext)
 
 
 
