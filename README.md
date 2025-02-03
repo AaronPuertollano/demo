@@ -21,7 +21,7 @@
 | 1.4.11 Contraste no textual                 |      X     |               |               |
 | 1.4.12 Espaciado de texto                   |      X     |               |               |
 | 1.4.13 Contenido al pasar el mouse o enfocar|      X     |               |               |
-| 2.1.1 Teclado                               |            |      X        |               |
+| 2.1.1 Teclado                               |      X     |               |               |
 | 2.1.4 Atajos de teclado de caracteres       |            |      X        |               |
 | 2.3.1 Tres destellos o menos del umbral     |      X     |               |               |
 | 2.3.3 Animación a partir de interacciones   |      X     |               |               |
