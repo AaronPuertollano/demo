@@ -48,7 +48,7 @@ Se realizaron las siguientes mejoras para cumplir con los estándares de accesib
 
 -Introducción de texto explicativo para imagenes tato visual o para lector
 
--
+-Aligerar la carga aliminando elementos externos como google fonts
 
 
 **Enlace a la página modificada:**  
