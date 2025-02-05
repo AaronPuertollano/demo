@@ -5,6 +5,8 @@
 **Enlace a la página analizada:**  
 [Análisis en LightHouse](https://pagespeed.web.dev/analysis/https-aaronmarques24-netlify-app-html-galeria/q5eluio5uk?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=es&utm_source=lh-chrome-ext)
 
+RENDIMIENTO: 93/100  |  ACCESIBILIDAD: 90/100  |  PRACTICAS RECOMENDADAS: 100/100  |  SEO: 82/100
+
 ## Checklist de Accesibilidad
 
 |              Norma                          |   Cumple   |   No Cumple   | No Examinable |
@@ -50,11 +52,14 @@ Se realizaron las siguientes mejoras para cumplir con los estándares de accesib
 
 -Aligerar la carga aliminando elementos externos como google fonts
 
+-Cambio en el metodo de carga de las imagenes a lazy, asi se cargarán solo cuando sea necesario
+
 -Revisando la pagina con el narrador, el orden de lectura es correcto 
 
 
 **Enlace a la página modificada:**  
 [Análisis en LightHouse](https://pagespeed.web.dev/analysis/https-demo5262-netlify-app-accesible-html-galeria/lc5kfkb48q?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=es&utm_source=lh-chrome-ext)
 
+RENDIMIENTO: 100/100  |  ACCESIBILIDAD: 100/100  |  PRACTICAS RECOMENDADAS: 100/100  |  SEO: 91/100
 
 
