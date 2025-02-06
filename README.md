@@ -7,6 +7,12 @@
 
 RENDIMIENTO: 93/100  |  ACCESIBILIDAD: 90/100  |  PRACTICAS RECOMENDADAS: 100/100  |  SEO: 82/100
 
+**Principales fallos detectados con lighthouse:**
+
+-Los colores de fondo y de primer plano no tienen una relación de contraste adecuada.
+
+-Los elementos de encabezado no aparecen en orden secuencial descendente.
+
 ## Checklist de Accesibilidad
 
 |              Norma                          |   Cumple   |   No Cumple   | No Examinable |
@@ -38,28 +44,34 @@ RENDIMIENTO: 93/100  |  ACCESIBILIDAD: 90/100  |  PRACTICAS RECOMENDADAS: 100/10
 | 3.3.2 Etiquetas o instrucciones             |            |       X       |               |
 | 3.3.3 Sugerencia de error                   |            |               |        X      |
 
+**Principales fallos detectados con la checklist:**
+
+-Etiquetas mal colocadas, incluyendo el idioma de la pagina (Inglés).
+
+-Accesibilidad de la información pobre, sobretodo con las imagenes.
+
+-Navegación incosistente y falta de cojerencia en los encabezados.
+
 ## Cambios Implementados
 
 Se realizaron las siguientes mejoras para cumplir con los estándares de accesibilidad:
 
--Cambio de colores para mejorar del contraste
+-Cambio de colores para mejorar del contraste.
 
--Cambio de etiquetas HTML para mejorar la lectura de narrador
+-Cambio de etiquetas HTML para mejorar la lectura de narrador.
 
--Cambio de lenguaje en HTML de eng a es
+-Cambio de lenguaje en HTML de eng a es.
 
--Introducción de texto explicativo para imagenes tato visual o para lector
+-Introducción de texto explicativo para imagenes tato visual o para lector.
 
--Aligerar la carga aliminando elementos externos como google fonts
+-Aligerar la carga aliminando elementos externos como google fonts.
 
--Cambio en el metodo de carga de las imagenes a lazy, asi se cargarán solo cuando sea necesario
+-Cambio en el metodo de carga de las imagenes a lazy, asi se cargarán solo cuando sea necesario.
 
--Revisando la pagina con el narrador, el orden de lectura es correcto 
+-Revisando la pagina con el narrador, el orden de lectura es correcto.
 
 
 **Enlace a la página modificada:**  
 [Análisis en LightHouse](https://pagespeed.web.dev/analysis/https-demo5262-netlify-app-accesible-html-galeria/lc5kfkb48q?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=es&utm_source=lh-chrome-ext)
 
 RENDIMIENTO: 100/100  |  ACCESIBILIDAD: 100/100  |  PRACTICAS RECOMENDADAS: 100/100  |  SEO: 91/100
-
-
