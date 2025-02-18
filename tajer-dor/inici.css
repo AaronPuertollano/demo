@@ -48,6 +48,16 @@ footer .container {
     padding: 20px;
 }
 
+.img-fluid {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+}
+
+.featurette {
+    min-height: 400px;
+}
+
 @media (max-width: 768px) {
     .featurette-heading {
         font-size: 1.8rem;
