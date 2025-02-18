@@ -13,28 +13,7 @@ header {
     background-color: #fff;
 }
 
-.contenido{
-    background-color: #fff;
-}
-
 footer {
     background-color: #fff;
     text-decoration: none;
-}
-
-footer .fab {
-    transition: color 0.3s;
-}
-
-footer .list-unstyled li {
-    margin-bottom: 10px;
-}
-
-footer .text-uppercase {
-    font-weight: bold;
-}
-
-footer .container {
-    max-width: 1200px;
-    margin: 0 auto;
 }
