@@ -23,8 +23,17 @@ footer {
     text-decoration: none;
 }
 
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .content {
     padding: 20px;
+}
+
+.featurette {
+    min-height: 400px;
 }
 
 @media (max-width: 768px) {
