@@ -12,26 +12,10 @@ header {
     background-color: aliceblue;
 }
 
-.image {
-    max-width: 80%;
-    border-radius: 5%;
-    align-items: center;
-}
-
 .hero-section {
     background: url(./img/Barrios-de-Venecia.jpg) center/cover no-repeat;
     height: 100vh;
     position: relative;
-}
-
-.hero-overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 footer {
@@ -39,23 +23,8 @@ footer {
     text-decoration: none;
 }
 
-footer .container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .content {
     padding: 20px;
-}
-
-.img-fluid {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 3 / 2;
-}
-
-.featurette {
-    min-height: 400px;
 }
 
 @media (max-width: 768px) {
